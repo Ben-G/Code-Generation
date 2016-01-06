@@ -1,0 +1,4 @@
+github "drmohundro/SWXMLHash" "2.0.6"
+github "Swift-Flow/Swift-Flow" "v0.2.1"
+github "jpsim/SwiftXPC" "1.1.0"
+github "jpsim/SourceKitten" "0.7.3"

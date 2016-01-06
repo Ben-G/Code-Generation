@@ -1,0 +1,27 @@
+//
+//  SetUserSearchResutls.swift
+//  Meet
+//
+//  Created by Benjamin Encz on 12/9/15.
+//  Copyright © 2015 DigiTales. All rights reserved.
+//
+
+import Foundation
+
+struct SetUserSearchText: StandardActionConvertible {
+    let userSearchText: String
+
+    init(_ userSearchText: String) {
+        self.userSearchText = userSearchText
+    }
+}
+
+struct DeleteUser: StandardActionConvertible {
+    var user: User
+    let date: NSDate
+
+    init(_ user: User, date: NSDate) {
+        self.user = user
+        self.date = date
+    }
+}
